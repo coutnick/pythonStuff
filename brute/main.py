@@ -46,6 +46,7 @@ def main():
                 break
             else: 
                 print("There was no match....")
+                break
 
     end_time: float = time.perf_counter()
     print(f'Time taken: {round(end_time - start_time, 2)}s')
